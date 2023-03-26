@@ -16,10 +16,17 @@
         <Class IRI="#KySeaGame"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MonTheThao"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SeaGame"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#KySeaGame"/>
+        <Class IRI="#SeaGame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonTheThao"/>
         <Class IRI="#SeaGame"/>
     </SubClassOf>
 </Ontology>
