@@ -19,6 +19,9 @@
         <Class IRI="#MonTheThao"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#QuocGia"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SeaGame"/>
     </Declaration>
     <SubClassOf>
@@ -27,6 +30,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MonTheThao"/>
+        <Class IRI="#SeaGame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuocGia"/>
         <Class IRI="#SeaGame"/>
     </SubClassOf>
 </Ontology>
