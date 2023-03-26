@@ -15,6 +15,13 @@
     <Declaration>
         <Class IRI="#KySeaGame"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#SeaGame"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#KySeaGame"/>
+        <Class IRI="#SeaGame"/>
+    </SubClassOf>
 </Ontology>
 
 
